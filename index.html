@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Phedneck Academy — Formação profissional em informática e competências digitais.">
+  <meta name="author" content="Phedneck Academy">
+  <meta name="theme-color" content="#0a1020">
+  <title>Phedneck Academy | Formação Profissional</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#inicio"><img src="logo.png" alt="Phedneck Academy"></a>
+    <button class="menu-btn" aria-label="Abrir menu">☰</button>
+    <nav class="nav">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#cursos">Formações</a>
+      <a href="#inscricoes">Inscrições</a>
+      <a href="#contactos">Contactos</a>
+    <a href="admin.html">Administração</a></nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">FORMAÇÃO • TECNOLOGIA • FUTURO</p>
+        <h1>Aprenda hoje.<br><span>Prepare o seu futuro.</span></h1>
+        <p class="hero-text">A Phedneck Academy prepara jovens e adultos para o mundo digital através de formação prática, acessível e profissional.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#inscricoes">Fazer inscrição</a>
+          <a class="btn secondary" href="#cursos">Ver formações</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="pc-icon">⌨</div>
+        <h3>Formação em Informática</h3>
+        <p>Aprenda com prática, acompanhamento e orientação.</p>
+        <div class="mini-line"></div>
+        <strong>PHEDNECK ACADEMY</strong>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="section-title">
+        <p class="eyebrow">QUEM SOMOS</p>
+        <h2>Conheça a <span>Phedneck Academy</span></h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>A <strong>Phedneck Academy</strong> é uma academia dedicada à capacitação e desenvolvimento de competências digitais e profissionais.</p>
+          <p>O nosso objetivo é tornar a tecnologia mais acessível, ensinando de forma simples, prática e orientada para as necessidades reais dos nossos formandos.</p>
+        </div>
+        <div class="values">
+          <div><b>01</b><span><strong>Qualidade</strong><br>Formação clara e prática.</span></div>
+          <div><b>02</b><span><strong>Inovação</strong><br>Aprendizagem com tecnologia.</span></div>
+          <div><b>03</b><span><strong>Resultados</strong><br>Competências para a vida profissional.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cursos" class="section dark">
+      <div class="section-title center">
+        <p class="eyebrow">FORMAÇÕES</p>
+        <h2>Desenvolva novas <span>competências</span></h2>
+        <p>Escolha a formação que melhor corresponde aos seus objetivos.</p>
+      </div>
+      <div class="courses">
+        <article class="course"><div class="number">01</div><h3>Informática</h3><p>Conhecimentos essenciais de computador, sistema operativo, ficheiros e ferramentas digitais.</p><a href="#inscricoes">Quero participar →</a></article>
+        <article class="course"><div class="number">02</div><h3>Microsoft Word</h3><p>Criação e formatação de documentos, trabalhos, cartas, relatórios e documentos profissionais.</p><a href="#inscricoes">Quero participar →</a></article>
+        <article class="course"><div class="number">03</div><h3>Microsoft Excel</h3><p>Folhas de cálculo, fórmulas, tabelas, organização de dados e ferramentas essenciais.</p><a href="#inscricoes">Quero participar →</a></article>
+        <article class="course"><div class="number">04</div><h3>PowerPoint</h3><p>Criação de apresentações modernas, profissionais e eficazes.</p><a href="#inscricoes">Quero participar →</a></article>
+        <article class="course"><div class="number">05</div><h3>Internet e Ferramentas Digitais</h3><p>Utilização segura e produtiva da Internet, email e ferramentas online.</p><a href="#inscricoes">Quero participar →</a></article>
+        <article class="course"><div class="number">06</div><h3>Formações Especiais</h3><p>Novos cursos e módulos podem ser adicionados conforme a necessidade dos formandos.</p><a href="#contactos">Saber mais →</a></article>
+      </div>
+    </section>
+
+    <section id="inscricoes" class="section enrollment">
+      <div class="section-title">
+        <p class="eyebrow">INSCRIÇÃO ONLINE</p>
+        <h2>Faça a sua <span>inscrição</span></h2>
+        <p>Preencha os seus dados e envie a sua inscrição. A nossa equipa entrará em contacto para confirmar a turma e os próximos passos.</p>
+      </div>
+
+      <div class="enrollment-grid">
+        <div class="enroll-info">
+          <div class="enroll-feature"><span>01</span><div><strong>Preencha os seus dados</strong><p>Nome completo e telefone para contacto.</p></div></div>
+          <div class="enroll-feature"><span>02</span><div><strong>Escolha a formação</strong><p>Selecione o curso que pretende frequentar.</p></div></div>
+          <div class="enroll-feature"><span>03</span><div><strong>Envie a inscrição</strong><p>A inscrição será preparada e enviada pelo WhatsApp da Academia.</p></div></div>
+        </div>
+
+        <form id="enrollmentForm" class="enrollment-form">
+          <label for="nome">Nome completo</label>
+          <input id="nome" name="nome" type="text" placeholder="Digite o seu nome completo" required>
+
+          <label for="telefone">Telefone / WhatsApp</label>
+          <input id="telefone" name="telefone" type="tel" placeholder="Ex.: 972 136 558" required>
+
+          <label for="curso">Curso pretendido</label>
+          <select id="curso" name="curso" required>
+            <option value="" selected disabled>Selecione uma formação</option>
+            <option>Informática</option>
+            <option>Microsoft Word</option>
+            <option>Microsoft Excel</option>
+            <option>PowerPoint</option>
+            <option>Internet e Ferramentas Digitais</option>
+            <option>Formações Especiais</option>
+          </select>
+
+          <button class="btn primary form-submit" type="submit">Enviar inscrição →</button>
+          <p class="form-note">Ao clicar, o WhatsApp será aberto com a mensagem de inscrição preenchida.</p>
+          <div id="formMessage" class="form-message" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section why">
+      <div class="section-title center">
+        <p class="eyebrow">PORQUÊ A PHEDNECK ACADEMY?</p>
+        <h2>Aprendizagem pensada para <span>si</span></h2>
+      </div>
+      <div class="features">
+        <div><span>✓</span><h3>Aulas práticas</h3><p>Aprenda fazendo e desenvolvendo tarefas reais.</p></div>
+        <div><span>✓</span><h3>Acompanhamento</h3><p>Orientação durante o processo de aprendizagem.</p></div>
+        <div><span>✓</span><h3>Ambiente profissional</h3><p>Um espaço preparado para aprender tecnologia.</p></div>
+        <div><span>✓</span><h3>Certificação</h3><p>Informações sobre certificados disponíveis para cada formação.</p></div>
+      </div>
+    </section>
+
+    <section id="contactos" class="section contact dark">
+      <div class="section-title">
+        <p class="eyebrow">CONTACTOS</p>
+        <h2>Fale com a <span>Phedneck Academy</span></h2>
+        <p>Entre em contacto connosco para informações sobre as nossas formações e inscrições.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card"><b>WhatsApp / Telefone</b><p>972 136 558</p><small>Informações e inscrições</small></div>
+        <div class="contact-card"><b>Academia</b><p>Phedneck Academy</p><small>Formação e desenvolvimento de competências digitais</small></div>
+        <div class="contact-card"><b>Email</b><p>phedneckacademy@gmail.com</p><small>Informações e inscrições</small></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo">PHEDNECK <span>ACADEMY</span></div>
+    <p>© 2026 Phedneck Academy. Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
